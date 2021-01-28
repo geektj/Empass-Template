@@ -18,7 +18,9 @@
     color: #ffffff;
     padding: 1%;
 }
-
+.container .navie .display-none{
+    display: none;
+}
 .container .navie .brand-logo-div{
 
 }
@@ -936,11 +938,37 @@
     .container .navie .display-none{
         display: none;
     }
+    .container .navie .bar-icon{
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+    }
+    .container .navie .brand-logo-div{
+        width: 70% !important;
+        display: flex;
+        justify-content: flex-start;
+    }
 
 }
 
 /* ipad responsive */
 @media only screen and (min-width: 768px) and (max-width: 1200px){
+
+    /* header */
+    .container .navie .display-none{
+        display: none;
+    }
+    .container .navie .bar-icon{
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+    }
+    .container .navie .brand-logo-div{
+        width: 90% !important;
+        display: flex;
+        justify-content: flex-start;
+    }
+
     .landing-page .top-section{
         flex-direction: column;
     }
